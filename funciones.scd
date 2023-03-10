@@ -7,3 +7,5 @@ a = {
 	resultado = num1 + num2
 }
 )
+
+a.(3,100) 
