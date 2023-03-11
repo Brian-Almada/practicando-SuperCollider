@@ -16,3 +16,20 @@
 )
 
 ~escala.(7.4)
+
+
+
+(
+var i, x, z;
+z = [0, 1, 1.1, 1.3, 1.5, 2];
+i = z.choose;
+i.postln;
+x = case
+   {i == 1} {\no}
+   {i == 1.1} {\wrong}
+   {i == 1.3} {\wrongX}
+   {i == 1.5} {\medium}
+   {i == 2} {\wrongY}
+   {i == 0} {\true};
+x.postln;
+)
