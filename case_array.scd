@@ -33,3 +33,15 @@ x = case
    {i == 0} {\true};
 x.postln;
 )
+
+
+//iteración... contador (i)
+
+5.do({'a'.postln;})
+
+(
+10.do({
+	arg i;
+	('a'++i).postln;
+})
+)
