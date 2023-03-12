@@ -39,3 +39,6 @@
 //Combinación de modulación de frecuencia y amplitud con sinusoidal
 
 {SinOsc.ar(SinOsc.kr(8).range(140,860), 0, SinOsc.kr(2).range(0.01,1))}.play;
+
+//Combinación de modulación de frecuencia y amplitud de sinusoidal con ondas de sierra
+{SinOsc.ar(Saw.kr(5).range(140,860), 0, Saw.kr(2).range(0.01,1))}.play;
