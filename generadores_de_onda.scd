@@ -11,3 +11,17 @@
 {SinOsc.ar(200, 0, 0.5)!2}.plot(1);
 
 
+// Por debajo de los 20 Hz--- LFO (Low Frequency Oscillator)
+
+//Modulación de frecuencia (con el objeto MouseX se puede intervenir con el mouse por el eje X para modificar la frecuencia en el rango establecido por parámetro. Por el eje Y se puede realizar con MouseY)
+
+{SinOsc.ar(MouseX.kr(100,1000), 0, 0.5)}.play;
+
+//Modulación de amplitud
+
+{SinOsc.ar(300, 0, MouseX.kr(0.1, 1))}.play;
+
+//Combinación de modulación de frecuencia y amplitud
+
+{SinOsc.ar(MouseX.kr(100,1000), 0, MouseY.kr(0.1, 1))}.play;
+
