@@ -45,3 +45,21 @@ x.postln;
 	('a'++i).postln;
 })
 )
+
+
+
+(
+~array_inc = {
+	arg size;
+	var out;
+
+	out = List();
+	size.do({
+		arg i;
+		out.add(i);
+	});
+	out;
+}
+)
+
+~array_inc.(6)
