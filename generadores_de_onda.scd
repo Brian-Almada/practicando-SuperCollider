@@ -25,3 +25,17 @@
 
 {SinOsc.ar(MouseX.kr(100,1000), 0, MouseY.kr(0.1, 1))}.play;
 
+
+//Modulación de frecuencia con Sinusoidal
+//ar -> audio rate -- Con esto le digo a SC que suene
+//kr -> control rate -- Con esto no suena pero sí controlo
+
+{SinOsc.ar(SinOsc.kr(2).range(140,260), 0, 0.5)}.play
+
+//Modulación de amplitud con Sinusoidal
+
+{SinOsc.ar(400, 0, SinOsc.kr(5).range(0.01,1))}.play;
+
+//Combinación de modulación de frecuencia y amplitud con sinusoidal
+
+{SinOsc.ar(SinOsc.kr(8).range(140,860), 0, SinOsc.kr(2).range(0.01,1))}.play;
