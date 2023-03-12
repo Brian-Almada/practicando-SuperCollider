@@ -81,3 +81,27 @@ x.postln;
 )
 
 ~array_incB.(6)
+
+
+a = [[2,3],[4,7],[1,5],[2,8]]
+b = [5,11,6,10]//suma
+c = [6,28,5,16]//multiplicación
+
+(
+~sumaLoop = {
+	arg input;
+	var out, size_;
+	out = List();
+	size_ = input.size;
+
+	(size_).do({
+		arg i;
+		var sum;
+		sum = input[i][0]+input[i][1];
+		out.add(sum);
+	});
+    out;
+}
+)
+
+~sumaLoop.(a)
