@@ -63,3 +63,21 @@ x.postln;
 )
 
 ~array_inc.(6)
+
+
+
+(
+~array_incB = {
+	arg size;
+	var out;
+
+	out = List();
+	size.do({
+		arg i;
+		out.add(i*10);
+	});
+	out;
+}
+)
+
+~array_incB.(6)
