@@ -25,3 +25,7 @@ c = Synth(\modAmp, [\freq_mod,7,250,400,0.9])
 
 c.set(\gain,0.1)
 a.set(\freq_mod,7)
+
+a.free
+c.free
+b.free
