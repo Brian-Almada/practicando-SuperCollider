@@ -20,3 +20,8 @@ SynthDef(\modAmp,
 )
 
 a = Synth(\modAmp, [\freq_mod,2,190,3000,0.9]) //Se coloca solo Synth porque ahora estamos llamando a la función. SynthDef es para definirla.
+b = Synth(\modAmp, [\freq_mod,5,100,300,0.9])
+c = Synth(\modAmp, [\freq_mod,7,250,400,0.9])
+
+c.set(\gain,0.1)
+a.set(\freq_mod,7)
