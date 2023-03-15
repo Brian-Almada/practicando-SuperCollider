@@ -51,5 +51,7 @@ SynthDef(\mod,{
 )
 
 a = Synth(\mod)
-
+a.set(\pan_freq,5)
+a.set(\amp_mod,4)
+a.set(\pan_kr, 10)
 
