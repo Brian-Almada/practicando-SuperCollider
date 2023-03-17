@@ -6,7 +6,7 @@
 b = Buffer.read(s, ~path[0]);
 b
 
-SynthDef(\help_PlayBuf, {
+SynthDef(\player, {
 	arg bufnum = 0, bus = 0, gain = 0.5;
 	var out;
 
