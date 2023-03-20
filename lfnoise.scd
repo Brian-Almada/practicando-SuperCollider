@@ -25,3 +25,8 @@
 
 //Como controlador
 {SinOsc.ar(LFNoise2.kr(20).range(400,800),0,0.5)!2}.play
+
+
+//LFDNoise
+//Como salida de audio
+{LFDNoise0.ar(6)}.play
