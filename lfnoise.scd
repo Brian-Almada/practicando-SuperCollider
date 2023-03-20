@@ -22,3 +22,6 @@
 
 //Como salida de audio
 {LFNoise2.ar(6000)}.play
+
+//Como controlador
+{SinOsc.ar(LFNoise2.kr(20).range(400,800),0,0.5)!2}.play
