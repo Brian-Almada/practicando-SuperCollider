@@ -17,3 +17,8 @@
 
 //Como controlador
 {SinOsc.ar(LFNoise1.kr(20).range(400,800),0,0.5)!2}.play
+
+//LFNoise2: Genera una onda triangular. Es una función polinomial cuadrática de grado 2.
+
+//Como salida de audio
+{LFNoise2.ar(6000)}.play
