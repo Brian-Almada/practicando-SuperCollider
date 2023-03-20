@@ -28,8 +28,16 @@
 
 
 //LFDNoise
+
+//LFDNoise0
+
 //Como salida de audio
 {LFDNoise0.ar(6)}.play
 
 //Como controlador
 {SinOsc.ar(LFDNoise0.kr(20).range(400,800),0,0.5)!2}.play
+
+//LFDNoise1
+
+//Como salida de audio
+{LFDNoise1.ar(6)}.play
