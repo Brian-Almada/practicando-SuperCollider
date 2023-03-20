@@ -41,3 +41,6 @@
 
 //Como salida de audio
 {LFDNoise1.ar(6)}.play
+
+//Como controlador
+{SinOsc.ar(LFDNoise1.kr(20).range(400,800),0,0.5)!2}.play
