@@ -38,3 +38,13 @@ r = Routine {
 )
 
 r.value
+
+
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Arrays
+
+a = (2)!3 // El número entre paréntesís es copiado la cantidad de veces que el número posterior al signo !
+
+a = {rrand(0,5)}!5 // En este caso se guardan en un array 5 números aleatorios entre el 0 y el 5
+
