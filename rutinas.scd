@@ -48,3 +48,12 @@ a = (2)!3 // El número entre paréntesís es copiado la cantidad de veces que e
 
 a = {rrand(0,5)}!5 // En este caso se guardan en un array 5 números aleatorios entre el 0 y el 5
 
+(
+~rand_array = {
+	arg min, max, size;
+	var out;
+	out = {rrand(min, max)}!size;
+}
+)
+
+~rand_array.(100, 101.0,20)
