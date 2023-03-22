@@ -1,0 +1,2 @@
+// MIDI (del inglés "Musical Instrument Digital Interface") es un protocolo de comunicación estándar utilizado en la música electrónica y la producción musical. MIDI permite la comunicación digital entre dispositivos electrónicos como teclados, sintetizadores, computadoras y otros dispositivos de música.
+//En lugar de transmitir señales de audio, como lo hacen los cables de audio convencionales, MIDI transmite datos que representan información musical, como notas, duraciones, dinámicas y efectos.
